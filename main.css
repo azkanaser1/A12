@@ -1,0 +1,59 @@
+/* the styles for the elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: white;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 800px;
+    margin: 0 auto;
+    border: 3px solid indianred;
+    background-color: #fffded;
+}
+a:focus, a:hover {
+    font-style: italic;
+}
+/* the styles for the header */
+header {
+    padding: 1.5em 0 2em 2em;
+    border-bottom: 3px solid indianred;
+    background-image: linear-gradient(
+            120deg, #FF4842 0%, #FE7745 30%, #F6FE38 50%, #9FFF59 80%, #59CDFF 100%);
+}
+header h3 {
+    font-size: 130%;
+    padding-left: 240px;
+    font-family: "Bookman Old Style";
+}
+.shadow {
+    text-shadow: 2px 2px 2px navajowhite;
+}
+/* the styles for the section */
+section {
+    width: 525px;
+    padding: 10px 20px 20px 20px;
+}
+section h2 {
+    color: #800000;
+    font-size: 130%;
+    font-family: "Bookman Old Style";
+    padding: 2em 0 .25em 0;
+}
+section p {
+    padding-bottom: 2em;
+}
+/* the styles for the footer */
+footer {
+    background-color: indianred;
+    clear: both;
+    font-family: "Bookman Old Style";
+}
+footer p {
+    text-align: center;
+    color: white;
+    padding: 1em 0;
+}
